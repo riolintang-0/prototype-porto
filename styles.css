@@ -1,0 +1,112 @@
+body{
+    background-color: rgba(22, 22, 22, 0.952);
+}
+a,h2,p ,li{
+    color: aliceblue;
+}
+ol li {
+    color: yellow;
+    font-weight: bold;
+}
+ul li {
+    color: white;
+}
+a{
+    font-weight: bold;
+}
+.logo-header img{
+    width: 30px;
+}
+.header-section {
+    background-color: rgba(22, 22, 22, 0.952);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+}
+.detail-headline{
+    height: fit-content;
+    margin: auto 0;
+}
+.description-section{
+    text-align: center;
+
+}
+.line{
+    width: 300px;
+    height: 8px;
+    background-color: blueviolet;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-space-arround{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.fixed-position{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+.box-card{
+    width: 400px;
+    background-color: azure;
+    padding:30px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 15px 15px 20px rgba(199, 195, 195, 0.808);
+}
+input,textarea{
+    width: 100%;
+    border: 0px;
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+.form-input{
+    padding: 10px;
+    border:solid 1px rgba(199, 195, 195, 0.808);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.form-box{
+    width: 450px;
+    background-color: rgba(48, 45, 45, 0.733);
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 15px 15px 20px  rgba(199, 195, 195, 0.808);
+}
+
+.title-form h2{
+    text-align: center;
+}
+
+.colom{
+    background-color: rgba(48, 47, 47, 0.575);
+}
+
+.name-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+button{
+    width: 100%;
+    background-color: rgba(12, 11, 11, 0.774);
+    padding: 5px;
+}
